@@ -1,2 +1,2 @@
 # tech-test-minesweeper
-Technical assessment from SpinMe
+Technical assessment from Future Publishing
