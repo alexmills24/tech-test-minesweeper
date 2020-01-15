@@ -1,19 +1,22 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #grid tr td {
-    border: 2px solid black;
-    background-color: grey;
-    width: 16px;
-    height: 16px;
-    text-align: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  border: 2px solid black;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#grid tr td.mine {
+  background-color: red;
+}
