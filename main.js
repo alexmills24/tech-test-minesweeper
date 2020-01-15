@@ -43,3 +43,27 @@ const revealMines = () => {
     }
   }
 };
+
+// revealClues = () => {
+//   if (cell.getAttribute("data-mine") === "true") {
+//     //counts and displays the number of adjacent mines
+//     let mineCount = 0;
+//     let cellRow = cell.parentNode.rowIndex;
+//     let cellColumn = cell.cellIndex;
+//     for (
+//       let i = Math.max(cellRow - 1, 0);
+//       i <= Math.min(cellRow + 1, gridSize - 1);
+//       i++
+//     ) {
+//       for (
+//         let j = Math.max(cellColumn - 1, 0);
+//         j <= Math.min(cellColumn + 1, gridSize - 1);
+//         j++
+//       ) {
+//         if (grid.rows[i].cells[j].getAttribute("data-mine") == "true")
+//           mineCount++;
+//       }
+//     }
+//     cell.innerHTML = mineCount;
+//   }
+// };
